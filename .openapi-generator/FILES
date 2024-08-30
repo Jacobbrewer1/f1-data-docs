@@ -1,4 +1,6 @@
 Apis/DefaultApi.md
+Models/constructor.md
+Models/driver.md
 Models/error_message.md
 Models/message.md
 Models/race.md
