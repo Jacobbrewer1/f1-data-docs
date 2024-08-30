@@ -1,0 +1,8 @@
+.openapi-generator-ignore
+Apis/DefaultApi.md
+Models/error_message.md
+Models/message.md
+Models/race.md
+Models/race_result.md
+Models/season.md
+README.md
