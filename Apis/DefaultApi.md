@@ -26,7 +26,7 @@ Get all drivers for a season
 | **last\_val** | **String**| Pagination details, last value of the sort column on the previous page. | [optional] [default to null] |
 | **last\_id** | **String**| Pagination details, last value of the id column on the previous page. | [optional] [default to null] |
 | **sort\_by** | **String**| Pagination details, sort column, if empty uses the id column. | [optional] [default to null] |
-| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to ASC] [enum: ASC, DESC] |
+| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to asc] [enum: asc, desc] |
 | **name** | **String**| The name to filter by | [optional] [default to null] |
 
 ### Return type
@@ -57,7 +57,7 @@ Get all drivers for a season
 | **last\_val** | **String**| Pagination details, last value of the sort column on the previous page. | [optional] [default to null] |
 | **last\_id** | **String**| Pagination details, last value of the id column on the previous page. | [optional] [default to null] |
 | **sort\_by** | **String**| Pagination details, sort column, if empty uses the id column. | [optional] [default to null] |
-| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to ASC] [enum: ASC, DESC] |
+| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to asc] [enum: asc, desc] |
 | **name** | **String**| The name to filter by | [optional] [default to null] |
 | **tag** | **String**| The tag to filter by | [optional] [default to null] |
 | **team** | **String**| The team to filter by | [optional] [default to null] |
@@ -90,7 +90,7 @@ Get all results for a season
 | **last\_val** | **String**| Pagination details, last value of the sort column on the previous page. | [optional] [default to null] |
 | **last\_id** | **String**| Pagination details, last value of the id column on the previous page. | [optional] [default to null] |
 | **sort\_by** | **String**| Pagination details, sort column, if empty uses the id column. | [optional] [default to null] |
-| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to ASC] [enum: ASC, DESC] |
+| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to asc] [enum: asc, desc] |
 
 ### Return type
 
@@ -120,7 +120,7 @@ Get all races for a season
 | **last\_val** | **String**| Pagination details, last value of the sort column on the previous page. | [optional] [default to null] |
 | **last\_id** | **String**| Pagination details, last value of the id column on the previous page. | [optional] [default to null] |
 | **sort\_by** | **String**| Pagination details, sort column, if empty uses the id column. | [optional] [default to null] |
-| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to ASC] [enum: ASC, DESC] |
+| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to asc] [enum: asc, desc] |
 
 ### Return type
 
@@ -149,7 +149,7 @@ Get all seasons
 | **last\_val** | **String**| Pagination details, last value of the sort column on the previous page. | [optional] [default to null] |
 | **last\_id** | **String**| Pagination details, last value of the id column on the previous page. | [optional] [default to null] |
 | **sort\_by** | **String**| Pagination details, sort column, if empty uses the id column. | [optional] [default to null] |
-| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to ASC] [enum: ASC, DESC] |
+| **sort\_dir** | **String**| Pagination details, sorting order. | [optional] [default to asc] [enum: asc, desc] |
 | **year** | **Long**| The year of the season | [optional] [default to null] |
 | **year\_min** | **Long**| The minimum year of the season | [optional] [default to null] |
 | **year\_max** | **Long**| The maximum year of the season | [optional] [default to null] |
