@@ -7,11 +7,15 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 | Class | Method | HTTP request | Description |
 |------------ | ------------- | ------------- | -------------|
-| *DefaultApi* | [**getConstructorsChampionship**](Apis/DefaultApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
-*DefaultApi* | [**getDriversChampionship**](Apis/DefaultApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
-*DefaultApi* | [**getRaceResults**](Apis/DefaultApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
-*DefaultApi* | [**getSeasonRaces**](Apis/DefaultApi.md#getseasonraces) | **GET** /seasons/{year}/races | Get all races for a season |
-*DefaultApi* | [**getSeasons**](Apis/DefaultApi.md#getseasons) | **GET** /seasons | Get all seasons |
+| *ConstructorsApi* | [**getConstructorsChampionship**](Apis/ConstructorsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
+| *DriversApi* | [**getDriversChampionship**](Apis/DriversApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
+| *RacesApi* | [**getRaceResults**](Apis/RacesApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
+*RacesApi* | [**getSeasonRaces**](Apis/RacesApi.md#getseasonraces) | **GET** /seasons/{year}/races | Get all races for a season |
+| *SeasonsApi* | [**getConstructorsChampionship**](Apis/SeasonsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
+*SeasonsApi* | [**getDriversChampionship**](Apis/SeasonsApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
+*SeasonsApi* | [**getRaceResults**](Apis/SeasonsApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
+*SeasonsApi* | [**getSeasonRaces**](Apis/SeasonsApi.md#getseasonraces) | **GET** /seasons/{year}/races | Get all races for a season |
+*SeasonsApi* | [**getSeasons**](Apis/SeasonsApi.md#getseasons) | **GET** /seasons | Get all seasons |
 
 
 <a name="documentation-for-models"></a>

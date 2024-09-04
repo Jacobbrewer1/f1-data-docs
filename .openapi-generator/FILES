@@ -1,4 +1,7 @@
-Apis/DefaultApi.md
+Apis/ConstructorsApi.md
+Apis/DriversApi.md
+Apis/RacesApi.md
+Apis/SeasonsApi.md
 Models/constructor.md
 Models/driver.md
 Models/error_message.md
