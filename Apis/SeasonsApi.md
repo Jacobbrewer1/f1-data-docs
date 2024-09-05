@@ -13,7 +13,7 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 <a name="getConstructorsChampionship"></a>
 # **getConstructorsChampionship**
-> List getConstructorsChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
+> constructor_response getConstructorsChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
 
 Get all drivers for a season
 
@@ -31,7 +31,7 @@ Get all drivers for a season
 
 ### Return type
 
-[**List**](../Models/constructor.md)
+[**constructor_response**](../Models/constructor_response.md)
 
 ### Authorization
 
@@ -44,7 +44,7 @@ No authorization required
 
 <a name="getDriversChampionship"></a>
 # **getDriversChampionship**
-> List getDriversChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name, tag, team)
+> driver_response getDriversChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name, tag, team)
 
 Get all drivers for a season
 
@@ -64,7 +64,7 @@ Get all drivers for a season
 
 ### Return type
 
-[**List**](../Models/driver.md)
+[**driver_response**](../Models/driver_response.md)
 
 ### Authorization
 
@@ -77,7 +77,7 @@ No authorization required
 
 <a name="getRaceResults"></a>
 # **getRaceResults**
-> List getRaceResults(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
+> race_result_response getRaceResults(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all results for a season
 
@@ -94,7 +94,7 @@ Get all results for a season
 
 ### Return type
 
-[**List**](../Models/race_result.md)
+[**race_result_response**](../Models/race_result_response.md)
 
 ### Authorization
 
@@ -107,7 +107,7 @@ No authorization required
 
 <a name="getSeasonRaces"></a>
 # **getSeasonRaces**
-> List getSeasonRaces(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
+> race_response getSeasonRaces(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all races for a season
 
@@ -124,7 +124,7 @@ Get all races for a season
 
 ### Return type
 
-[**List**](../Models/race.md)
+[**race_response**](../Models/race_response.md)
 
 ### Authorization
 
@@ -137,7 +137,7 @@ No authorization required
 
 <a name="getSeasons"></a>
 # **getSeasons**
-> List getSeasons(limit, last\_val, last\_id, sort\_by, sort\_dir, year, year\_min, year\_max)
+> season_response getSeasons(limit, last\_val, last\_id, sort\_by, sort\_dir, year, year\_min, year\_max)
 
 Get all seasons
 
@@ -156,7 +156,7 @@ Get all seasons
 
 ### Return type
 
-[**List**](../Models/season.md)
+[**season_response**](../Models/season_response.md)
 
 ### Authorization
 

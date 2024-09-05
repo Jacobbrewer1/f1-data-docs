@@ -10,7 +10,7 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 <a name="getRaceResults"></a>
 # **getRaceResults**
-> List getRaceResults(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
+> race_result_response getRaceResults(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all results for a season
 
@@ -27,7 +27,7 @@ Get all results for a season
 
 ### Return type
 
-[**List**](../Models/race_result.md)
+[**race_result_response**](../Models/race_result_response.md)
 
 ### Authorization
 
@@ -40,7 +40,7 @@ No authorization required
 
 <a name="getSeasonRaces"></a>
 # **getSeasonRaces**
-> List getSeasonRaces(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
+> race_response getSeasonRaces(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all races for a season
 
@@ -57,7 +57,7 @@ Get all races for a season
 
 ### Return type
 
-[**List**](../Models/race.md)
+[**race_response**](../Models/race_response.md)
 
 ### Authorization
 

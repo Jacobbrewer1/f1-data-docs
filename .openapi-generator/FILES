@@ -3,10 +3,15 @@ Apis/DriversApi.md
 Apis/RacesApi.md
 Apis/SeasonsApi.md
 Models/constructor.md
+Models/constructor_response.md
 Models/driver.md
+Models/driver_response.md
 Models/error_message.md
 Models/message.md
 Models/race.md
+Models/race_response.md
 Models/race_result.md
+Models/race_result_response.md
 Models/season.md
+Models/season_response.md
 README.md
