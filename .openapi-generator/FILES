@@ -2,9 +2,11 @@ Apis/ConstructorsApi.md
 Apis/DriversApi.md
 Apis/RacesApi.md
 Apis/SeasonsApi.md
-Models/constructor.md
-Models/constructor_response.md
+Models/constructor_championship.md
+Models/constructor_championship_response.md
 Models/driver.md
+Models/driver_championship.md
+Models/driver_championship_response.md
 Models/driver_response.md
 Models/error_message.md
 Models/message.md

@@ -9,7 +9,7 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 <a name="getConstructorsChampionship"></a>
 # **getConstructorsChampionship**
-> constructor_response getConstructorsChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
+> constructor_championship_response getConstructorsChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
 
 Get all drivers for a season
 
@@ -27,7 +27,7 @@ Get all drivers for a season
 
 ### Return type
 
-[**constructor_response**](../Models/constructor_response.md)
+[**constructor_championship_response**](../Models/constructor_championship_response.md)
 
 ### Authorization
 

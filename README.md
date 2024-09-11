@@ -8,7 +8,8 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 | Class | Method | HTTP request | Description |
 |------------ | ------------- | ------------- | -------------|
 | *ConstructorsApi* | [**getConstructorsChampionship**](Apis/ConstructorsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
-| *DriversApi* | [**getDriversChampionship**](Apis/DriversApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
+| *DriversApi* | [**getDrivers**](Apis/DriversApi.md#getdrivers) | **GET** /drivers | Get all drivers |
+*DriversApi* | [**getDriversChampionship**](Apis/DriversApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
 | *RacesApi* | [**getRaceResults**](Apis/RacesApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
 *RacesApi* | [**getSeasonRaces**](Apis/RacesApi.md#getseasonraces) | **GET** /seasons/{year}/races | Get all races for a season |
 | *SeasonsApi* | [**getConstructorsChampionship**](Apis/SeasonsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
@@ -21,9 +22,11 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 <a name="documentation-for-models"></a>
 ## Documentation for Models
 
- - [constructor](./Models/constructor.md)
- - [constructor_response](./Models/constructor_response.md)
+ - [constructor_championship](./Models/constructor_championship.md)
+ - [constructor_championship_response](./Models/constructor_championship_response.md)
  - [driver](./Models/driver.md)
+ - [driver_championship](./Models/driver_championship.md)
+ - [driver_championship_response](./Models/driver_championship_response.md)
  - [driver_response](./Models/driver_response.md)
  - [error_message](./Models/error_message.md)
  - [message](./Models/message.md)
