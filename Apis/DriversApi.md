@@ -5,7 +5,7 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
 | [**getDrivers**](DriversApi.md#getDrivers) | **GET** /drivers | Get all drivers |
-| [**getDriversChampionship**](DriversApi.md#getDriversChampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
+| [**getDriversChampionship_0**](DriversApi.md#getDriversChampionship_0) | **GET** /championships/{year}/drivers | Get all drivers for a season |
 
 
 <a name="getDrivers"></a>
@@ -41,9 +41,9 @@ No authorization required
 - **Content-Type**: Not defined
 - **Accept**: application/json
 
-<a name="getDriversChampionship"></a>
-# **getDriversChampionship**
-> driver_championship_response getDriversChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name, tag, team)
+<a name="getDriversChampionship_0"></a>
+# **getDriversChampionship_0**
+> driver_championship_response getDriversChampionship_0(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name, tag, team)
 
 Get all drivers for a season
 

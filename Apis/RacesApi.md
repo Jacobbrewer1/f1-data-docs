@@ -4,13 +4,13 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
-| [**getRaceResults**](RacesApi.md#getRaceResults) | **GET** /races/{race_id}/results | Get all results for a season |
-| [**getSeasonRaces**](RacesApi.md#getSeasonRaces) | **GET** /seasons/{year}/races | Get all races for a season |
+| [**getRaceResults_0**](RacesApi.md#getRaceResults_0) | **GET** /races/{race_id}/results | Get all results for a season |
+| [**getSeasonRaces_0**](RacesApi.md#getSeasonRaces_0) | **GET** /seasons/{year}/races | Get all races for a season |
 
 
-<a name="getRaceResults"></a>
-# **getRaceResults**
-> race_result_response getRaceResults(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
+<a name="getRaceResults_0"></a>
+# **getRaceResults_0**
+> race_result_response getRaceResults_0(race\_id, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all results for a season
 
@@ -38,9 +38,9 @@ No authorization required
 - **Content-Type**: Not defined
 - **Accept**: application/json
 
-<a name="getSeasonRaces"></a>
-# **getSeasonRaces**
-> race_response getSeasonRaces(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
+<a name="getSeasonRaces_0"></a>
+# **getSeasonRaces_0**
+> race_response getSeasonRaces_0(year, limit, last\_val, last\_id, sort\_by, sort\_dir)
 
 Get all races for a season
 

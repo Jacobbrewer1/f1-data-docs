@@ -7,11 +7,11 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 | Class | Method | HTTP request | Description |
 |------------ | ------------- | ------------- | -------------|
-| *ConstructorsApi* | [**getConstructorsChampionship**](Apis/ConstructorsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
+| *ConstructorsApi* | [**getConstructorsChampionship_0**](Apis/ConstructorsApi.md#getconstructorschampionship_0) | **GET** /championships/{year}/constructors | Get all drivers for a season |
 | *DriversApi* | [**getDrivers**](Apis/DriversApi.md#getdrivers) | **GET** /drivers | Get all drivers |
-*DriversApi* | [**getDriversChampionship**](Apis/DriversApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
-| *RacesApi* | [**getRaceResults**](Apis/RacesApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
-*RacesApi* | [**getSeasonRaces**](Apis/RacesApi.md#getseasonraces) | **GET** /seasons/{year}/races | Get all races for a season |
+*DriversApi* | [**getDriversChampionship_0**](Apis/DriversApi.md#getdriverschampionship_0) | **GET** /championships/{year}/drivers | Get all drivers for a season |
+| *RacesApi* | [**getRaceResults_0**](Apis/RacesApi.md#getraceresults_0) | **GET** /races/{race_id}/results | Get all results for a season |
+*RacesApi* | [**getSeasonRaces_0**](Apis/RacesApi.md#getseasonraces_0) | **GET** /seasons/{year}/races | Get all races for a season |
 | *SeasonsApi* | [**getConstructorsChampionship**](Apis/SeasonsApi.md#getconstructorschampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
 *SeasonsApi* | [**getDriversChampionship**](Apis/SeasonsApi.md#getdriverschampionship) | **GET** /championships/{year}/drivers | Get all drivers for a season |
 *SeasonsApi* | [**getRaceResults**](Apis/SeasonsApi.md#getraceresults) | **GET** /races/{race_id}/results | Get all results for a season |
