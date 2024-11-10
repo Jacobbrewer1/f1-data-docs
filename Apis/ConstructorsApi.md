@@ -4,12 +4,12 @@ All URIs are relative to *https://api.bthree.uk/f1/v1*
 
 | Method | HTTP request | Description |
 |------------- | ------------- | -------------|
-| [**getConstructorsChampionship_0**](ConstructorsApi.md#getConstructorsChampionship_0) | **GET** /championships/{year}/constructors | Get all drivers for a season |
+| [**getConstructorsChampionship**](ConstructorsApi.md#getConstructorsChampionship) | **GET** /championships/{year}/constructors | Get all drivers for a season |
 
 
-<a name="getConstructorsChampionship_0"></a>
-# **getConstructorsChampionship_0**
-> constructor_championship_response getConstructorsChampionship_0(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
+<a name="getConstructorsChampionship"></a>
+# **getConstructorsChampionship**
+> constructor_championship_response getConstructorsChampionship(year, limit, last\_val, last\_id, sort\_by, sort\_dir, name)
 
 Get all drivers for a season
 
