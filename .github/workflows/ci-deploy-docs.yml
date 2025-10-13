@@ -47,4 +47,4 @@ jobs:
           rm -rf ./f1-data
 
       - name: Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
